@@ -17,6 +17,6 @@ Iniciativa que busca promover la cultura SRE/DevOps (como sus otras variantes De
 
 ### Supporters:
 
-- ITBOX
+- ITBOX <https://itbox.cl>
 
 Backed by [Github Pages](https://pages.github.com/)
