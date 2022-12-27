@@ -1,22 +1,24 @@
 # [SREDevOps.dev](https://sredevops.dev/)
 
-<img src="https://sredevops.dev/logo.png" width="50%" />
+<img src="https://sredevops.dev/logo-h.png" />
 
-Iniciativa que busca promover la cultura SRE/DevOps (como sus otras variantes DevSecOps, MLOps, etc), con enfoque en Chile y América Latina, a través de facilitar comunidades y contextos de apoyo, orientación y aprendizaje. Toda propuesta es bienvenida, ésto es sólo el kickoff.
+Iniciativa que busca promover la cultura SRE/DevOps (como sus otras variantes DevSecOps, MLOps, etc), con enfoque en Chile y América Latina, a través de facilitar comunidades y contextos de apoyo, orientación y aprendizaje. Toda iniciativa es bienvenida, ésto es sólo el kickoff.
 
-## Links:
+## Links
 
-- Discord: <https://discord.gg/WRJCP9ce>
+- Discord: <https://discord.gg/bK9rXFTvpk>  
 - Github: <https://github.com/sredevopsdev>
-- Web (Just a landing): [https://sredevops.dev](https://sredevops.dev/)  
+- Web: [https://sredevops.dev](https://sredevops.dev/)
 - email: info@sredevops.dev
 
-### Mantainers:
+### Mantainers
 
 - Nicolás Georger <https://github.com/ngeorger>
+- Comunidad SREDevOps.dev
 
-### Supporters:
+### Agradecimientos
 
 - ITBOX <https://itbox.cl>
+- ElClaustro <https://elclaustro.cl>
 
 Backed by [Github Pages](https://pages.github.com/)
