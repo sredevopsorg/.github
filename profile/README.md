@@ -1,6 +1,6 @@
 # [SREDevOps.dev](https://sredevops.dev/)
 
-<img src="https://sredevops.dev/logo-h.png" />
+![](https://github.com/sredevopsdev/.github/raw/main/web/logo-h.png)
 
 Iniciativa que busca promover la cultura SRE/DevOps (como sus otras variantes DevSecOps, MLOps, etc), con enfoque en Chile y América Latina, a través de facilitar comunidades y contextos de apoyo, orientación y aprendizaje. Toda iniciativa es bienvenida, ésto es sólo el kickoff.
 
