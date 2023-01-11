@@ -51,8 +51,14 @@
           "title": "comments",
           "name": "comments",
           "type": "datetime"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.framework.startCommand": "hugo server -D"
 }

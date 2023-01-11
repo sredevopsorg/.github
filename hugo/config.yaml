@@ -15,7 +15,7 @@ enableInlineShortcodes: true
 markup:
   goldmark:
     renderer:
-      hardWraps: false
+      hardWraps: true
       unsafe: true
       xhtml: true
     extensions:
@@ -45,12 +45,12 @@ markup:
       wrapStandAloneImageWithinParagraph: true
   highlight:
     codeFences: true
-    guessSyntax: true
-    hl_Lines: ""
+    guessSyntax: false
+    hl_Lines: true
     lineNoStart: 1
     lineNos: true
-    lineNumbersInTable: false
-    noClasses: false
+    lineNumbersInTable: false  
+    noClasses: true
     tabWidth: 2
 
 permalinks:
@@ -63,8 +63,8 @@ permalinks:
 #   day: /:year/:month/:day/
   tag: /tag/:slug/
   category: /categoria/:slug/
-  series: /series/:slug/
-  noticias: /noticias/:slug/
+  # series: /series/:slug/
+  # noticias: /noticias/:slug/
 
 resourceDir: resources
 DefaultContentLanguage: es
@@ -118,7 +118,7 @@ params:
     path: 'logo-h.png'
     alt: 'SREDevOps.dev'
     maxWidth: '500px'
-  themeColor: '#1b1c1d'
+  themeColor: 
   dateform: '2 Jan 2006'
   dateformShort: 2 Jan
   dateformNum: '01-02-2006'
