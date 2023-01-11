@@ -1,53 +1,124 @@
 baseURL: 'https://sredevops.dev'
 title: SREDevOps.dev
-languageCode: es-es
+markdownEngine: goldmark
+languageCode: es-CL
 defaultContentLanguage: es
-theme: hello-friend-ng
+theme: sredevops
+
+# disqusShortname: elclaustrocl
+url: 'https://sredevops.dev'
+name: SREDevOps.dev
+description: Queremos construir "Curiosidad Continua" y "Comunidades como Soporte"
+enableRobotsTXT: true
+enableGitInfo: true
+enableInlineShortcodes: true
+markup:
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: true
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: true
+        title: true
+        url: true
+        type: true
+        subfolder: true
+        excerpt: false
+        date: true
+        draft: true
+        slug: true
+        tags: true
+        categories: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
+    tabWidth: 2
+
+permalinks:
+  posts: /:title/
+  pages: /:title/
+  section: /:section/
+  taxonomies: /:section/:slug/
+#   year: /:year/
+#   month: /:year/:month/
+#   day: /:year/:month/:day/
+  tag: /tag/:slug/
+  category: /categoria/:slug/
+  series: /series/:slug/
+  noticias: /noticias/:slug/
+
+resourceDir: resources
+DefaultContentLanguage: es
+# Paginate: 10
 PygmentsCodeFences: true
-PygmentsStyle: monokai
-paginate: 10
+PygmentsStyle: one-dark
+# paginate: 10
 rssLimit: 10
 copyright: >-
   This work is licensed under a Creative Commons Attribution-NonCommercial 4.0
   International License.
-archetypeDir: archetypes
-contentDir: content
-dataDir: data
-layoutDir: layouts
-publishDir: public
+# archetypeDir: ./archetypes
+contentDir: ./content
+dataDir: ./data
+layoutDir: ./layouts
+publishDir: ./public
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 canonifyURLs: true
-enableRobotsTXT: true
-enableGitInfo: false
 enableEmoji: true
 enableMissingTranslationPlaceholders: false
 disableRSS: false
 disableSitemap: false
 disable404: false
-disableHugoGeneratorInject: false
-permalinks:
-  posts: '/posts/:year/:month/:title/'
+disableHugoGeneratorInject: true
+# permalinks:
+#   posts: '/posts/:year/:month/:title/'
+#   pages: '/:title/'
+#   taxonomies: '/:title/'
+#   home: '/index.html'
+#   section: '/:section/'
+#   tag: '/tag/:slug/'
+#   category: '/category/:slug/'
+
 author:
   name: Nicolás Georger
 blackfriday:
-  hrefTargetBlank: true
+  hrefTargetBlank: false
 taxonomies:
   tag: tags
   category: categorias
   series: series
-  pages: pages
+  noticia: noticias
 params:
-  # Logo:
-  #   path: 'logo-h.png'
-  #   alt: 'SREDevOps.dev'
-  #   maxWidth: '500px'
-  Portait:
+  logo:
     path: 'logo-h.png'
     alt: 'SREDevOps.dev'
-    maxWidth: '200px'
-  themeColor: 'black'
+    maxWidth: '500px'
+  portait:
+    path: 'logo-h.png'
+    alt: 'SREDevOps.dev'
+    maxWidth: '500px'
+  themeColor: '#1b1c1d'
   dateform: '2 Jan 2006'
   dateformShort: 2 Jan
   dateformNum: '01-02-2006'
@@ -56,12 +127,10 @@ params:
     Promovemos la cultura SRE/DevOps, con enfoque en Chile y América Latina, a
     través de facilitar comunidades y contextos de apoyo, orientación y
     aprendizaje.
-  keywords: sre, SREDevOps, dev, chile, español
-  images:
-    - 'logo-h.png'
-  homeSubtitle: 'Queremos construir "Curiosidad Continua" y "Comunidades como Soporte" para contribuir al ecosistema de las culturas, prácticas y tecnologías asociadas al concepto de "Site Reliability Engineering" , facilitando instancias para reunir personas que quieran aprender, enseñar, compartir, comunicar, enlazar y contribuir. 
-      Latinoamérica y nuestro castellano, es el foco inicial, no-excluyente, con el propósito de facilitar el acercamiento al mundo cloud native.'
-  disableReadOtherPosts: true
+  keywords: "sre, SREDevOps, dev, chile, español, site reliability engineering"
+  # logo: 'logo-h.png'
+  # homeSubtitle: >-
+  disableReadOtherPosts: false
   enableThemeToggle: false
   enableSharingButtons: true
   enableGlobalLanguageMenu: false
@@ -70,24 +139,25 @@ params:
   justifyContent: true
   footer:
     trademark: false
-    rss: true
-    copyright: true
-    author: true
-    topText: []
+    rss: false
+    copyright: false
+    author: false
+    # topText:  SREDevOps.devx
+
     bottomText:
-      - 'Construído con <a href="http://gohugo.io">Hugo</a>'
       - >-
-        Theme basado en <a href="https://github.com/rhazdon">Djordje
-        Atlialp</a>
+        Construído con <a href="http://gohugo.io">Hugo</a>
+      - >-
+        Theme basado en <a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">@rhazdon/hugo-theme-hello-friend-ng</a>
   favicon:
     color:
       mask: '#1b1c1d'
       msapplication: '#1b1c1d'
       theme: '#1b1c1d'
-  logo:
-    logoMark: 'usuario@sredevops.dev$'
-    logoText: cd $HOME
-    logoHomeLink: /
+  # logo:
+  #   logoMark: 'usuario@sredevops.dev$'
+  #   logoText: cd $HOME
+  #   logoHomeLink: /
 
   social:
     # - name: twitter
@@ -104,24 +174,18 @@ params:
       url: 'https://www.youtube.com/@srdevopsdev'
     - name: discord
       url: 'https://discord.gg/bK9rXFTvpk'
-    - id: rss
-      name: rss
-      url: /index.xml
+    - name: rss
+      url: '/index.xml'
+
 languages:
   es:
     subtitle: Queremos construir "Curiosidad Continua" y "Comunidades como Soporte"
     weight: 1
-    copyright: >-
-      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
-      rel="noopener">CC BY-NC 4.0</a>
-  # en:
-  #   subtitle: Hello Friend NG Theme
-  #   weight: 2
-  #   copyright: >-
-  #     <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
-  #     rel="noopener">CC BY-NC 4.0</a>
 menu:
   main:
+    - identifier: home
+      name: Inicio
+      url: /
     - identifier: comunidad-discord
       name: Discord
       url: https://discord.gg/bK9rXFTvpk
