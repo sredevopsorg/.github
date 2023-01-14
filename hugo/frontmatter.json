@@ -43,16 +43,6 @@
           "type": "categories"
         },
         {
-          "title": "kind",
-          "name": "kind",
-          "type": "string"
-        },
-        {
-          "title": "comments",
-          "name": "comments",
-          "type": "datetime"
-        },
-        {
           "title": "type",
           "name": "type",
           "type": "string"
@@ -60,5 +50,15 @@
       ]
     }
   ],
-  "frontMatter.framework.startCommand": "hugo server -D"
+  "frontMatter.framework.startCommand": "hugo server -D",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": []
 }

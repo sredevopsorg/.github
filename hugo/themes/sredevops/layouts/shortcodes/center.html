@@ -1,0 +1,11 @@
+{{ $align := .Get "align" }}
+{{ $contenido := .Get "contenido" }}
+
+
+{{ if eq $align "center" }}
+<div class="center">
+        <h2 style="display: block; clear:both; margin:0 auto 0; ">{{ $contenido }}</h2>
+</div>
+{{ else }}
+{{ $contenido }}
+{{ end }}
