@@ -40,13 +40,13 @@ __Quizás lo podemos describir de otra manera... intentemos.__
           - Curiosidad Continua
           - Comunidades como Soporte
         para:
-          data-propósito: | 
-            Difundir las culturas, prácticas, roles,      
-            tecnologías y noticias del universo cloud     
-            native, desde la perspectiva de una comunidad 
-            de personas con diversidad de experiencias,   
-            culturas e identidades, que han desempeñando  
-            roles como SREs, Platform Engineers, DevOps,  
+          data-propósito: | \
+            Difundir las culturas, prácticas, roles,      \
+            tecnologías y noticias del universo cloud     \ 
+            native, desde la perspectiva de una comunidad \
+            de personas con diversidad de experiencias,   \
+            culturas e identidades, que han desempeñando  \
+            roles como SREs, Platform Engineers, DevOps,  \
             Developers, etc.'
         cómo:
           facilitando:
@@ -74,7 +74,7 @@ __Quizás lo podemos describir de otra manera... intentemos.__
           - Español
     plataformas:
       - discord:
-        enlace: 'https://discord.gg/8Z3q3Y2'
+        enlace: 'https://discord.gg/bK9rXFTvpk'
       - github:
         enlace: 'https://github.com/sredevopsdev'
       - instagram:
