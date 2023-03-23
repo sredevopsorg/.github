@@ -11,23 +11,26 @@ __Quizás lo podemos describir de otra manera... intentemos.__
 URL="https://sredevops.dev"
 NOMBRE="SREDevOps.dev"
 DESC="Comunidad SRE, DevOps y Platform Engineering en Castellano"
-echo "$NOMBRE - $DESC"
-  
+echo "${NOMBRE} - ${DESC} | \
+Link: ${URL}"
 # Fin del script
 ```
 ## Qué queremos hacer?
 
 ```yaml
 ---
-    # Archivo de configuración de la comunidad
-    tipo: proyecto
-    nombre: SREDevOps.dev
-      queremos:
-        construir:
-          - Curiosidad Continua
-          - Comunidades como Soporte
-        para:
-          data-propósito: | 
+api: v1beta1
+kind: proyecto
+name: SREDevOps.dev
+annotations:
+ - año: 2023
+spec:
+  queremos:
+    construir:
+    - Curiosidad Continua
+    - Comunidades como Soporte
+    para:
+        data: |- 
             Difundir las culturas, prácticas, roles,      
             tecnologías y noticias del universo cloud     
             native, desde la perspectiva de una comunidad 
@@ -35,11 +38,9 @@ echo "$NOMBRE - $DESC"
             culturas e identidades, que han desempeñando  
             roles como SREs, Platform Engineers, DevOps,  
             Developers, etc.'
-        cómo:
-          facilitando:
-            - reunir-personas
-            - facilitar-plataformas
-          que-deseen:
+    cómo:
+        data: |-
+            Reunir-personas y facilitar-plataformas que deseen
             - aprender
             - enseñar
             - compartir
@@ -47,11 +48,14 @@ echo "$NOMBRE - $DESC"
             - enlazar
             - contribuir
 ---
-    tipo: acciones-y-actividades
-    nombre: propuestas-2023 
-    metadatos:
-      cómo:
-        facilitar:
+api: v1beta1
+kind: actividades
+name: propuestas-2023 
+annotations:
+  - año: 2023
+spec:
+  cómo:
+    facilitar:
           - reunir-personas
           - plataformas
           - recursos-educativos
@@ -61,7 +65,7 @@ echo "$NOMBRE - $DESC"
           - Español
     plataformas:
       - discord:
-        enlace: 'https://discord.gg/8Z3q3Y2'
+        enlace: 'https://discord.com/invite/etg3g2XM'
       - github:
         enlace: 'https://github.com/sredevopsdev'
       - instagram:
