@@ -46,7 +46,7 @@ markup:
     hl_Lines: false
     lineNoStart: 1
     lineNos: true
-    lineNumbersInTable: false  
+    lineNumbersInTable: true  
     noClasses: true
     tabWidth: 2
 
@@ -159,7 +159,7 @@ params:
     # - name: twitter
     #   url: 'https://twitter.com/'
     - name: email
-      url: 'mailto:info@sredevops.dev'
+      url: 'mailto:info@sredevops.cl'
     - name: github
       url: 'https://github.com/sredevopsdev'
     - name: linkedin
