@@ -2,11 +2,11 @@
 
 ## 1. Propósito
 
-Un objetivo primordial de ElClaustro.cl es ser inclusivo con la mayor cantidad de colaboradores, con los más variados y diversos perfiles posibles. Como tal, estamos comprometidos a brindar un entorno amigable, seguro y acogedor para todos, independientemente de su género, orientación sexual, capacidad, etnia, nivel socioeconómico y religión (o la ausencia de estos).
+Un objetivo primordial de SREDevOps.cl es ser inclusivo con la mayor cantidad de colaboradores, con los más variados y diversos perfiles posibles. Como tal, estamos comprometidos a brindar un entorno amigable, seguro y acogedor para todos, independientemente de su género, orientación sexual, capacidad, etnia, nivel socioeconómico y religión (o la ausencia de estos).
 
 Este código de conducta describe nuestras expectativas para todos aquellos que participan en nuestra comunidad, así como las consecuencias de un comportamiento inaceptable.
 
-Invitamos a todos los que participan en ElClaustro.cl a ayudarnos a crear experiencias seguras y positivas para todos.
+Invitamos a todos los que participan en SREDevOps.cl a ayudarnos a crear experiencias seguras y positivas para todos.
 
 ## 2. Ciudadanía [fuente/cultura/tecnología] abierta
 
@@ -45,7 +45,7 @@ Los siguientes comportamientos se consideran acoso y son inaceptables dentro de 
 
 ## 5. Política de armas
 
-No se permitirán armas en los eventos de ElClaustro.cl, espacios comunitarios u otros espacios cubiertos por el alcance de este Código de Conducta. Las armas incluyen, entre otras, pistolas, explosivos (incluidos los fuegos artificiales) y cuchillos grandes, como los que se usan para cazar o exhibir, así como cualquier otro artículo que se use con el fin de causar lesiones o daño a otros. A cualquier persona que se vea en posesión de uno de estos artículos se le pedirá que se vaya de inmediato y solo se le permitirá regresar sin el arma. Se espera además que los miembros de la comunidad cumplan con todas las leyes estatales y locales sobre este asunto.
+No se permitirán armas en los eventos de SREDevOps.cl, espacios comunitarios u otros espacios cubiertos por el alcance de este Código de Conducta. Las armas incluyen, entre otras, pistolas, explosivos (incluidos los fuegos artificiales) y cuchillos grandes, como los que se usan para cazar o exhibir, así como cualquier otro artículo que se use con el fin de causar lesiones o daño a otros. A cualquier persona que se vea en posesión de uno de estos artículos se le pedirá que se vaya de inmediato y solo se le permitirá regresar sin el arma. Se espera además que los miembros de la comunidad cumplan con todas las leyes estatales y locales sobre este asunto.
 
 ## 6. Consecuencias del comportamiento inaceptable
 
@@ -57,7 +57,7 @@ Si un miembro de la comunidad se involucra en un comportamiento inaceptable, los
 
 ## 7. Directrices para la presentación de informes
 
-Si está sujeto o es testigo de un comportamiento inaceptable, o si tiene alguna otra inquietud, notifique a un organizador de la comunidad lo antes posible. info@elclaustro.cl.
+Si está sujeto o es testigo de un comportamiento inaceptable, o si tiene alguna otra inquietud, notifique a un organizador de la comunidad lo antes posible. info@SREDevOps.cl.
 
 
 
@@ -77,13 +77,13 @@ Este código de conducta y sus procedimientos relacionados también se aplican a
 
 ## 10. Información de contacto
 
-info@elclaustro.cl
+info@SREDevOps.cl
 
 ## 11. Licencia y atribución
 
 El Código de conducta del ciudadano es distribuido por [Stumptown Syndicate](http://stumptownsyndicate.org) bajo una [licencia Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/3.0/).
 
-Partes del texto derivadas del [Código de conducta de Django] (https://www.djangoproject.com/conduct/) y la [Política contra el acoso del feminismo geek] (http://geekfeminism.wikia.com/wiki/Conference_anti-acoso/Política).
+Partes del texto derivadas del [Código de conducta de Django](https://www.djangoproject.com/conduct/) y la [Política contra el acoso del feminismo geek](https://geekfeminism.fandom.com/wiki/Geek_Feminism_Wiki).
 
 _Revisión 2.3. Publicado el 6 de marzo de 2017._
 
