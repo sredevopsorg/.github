@@ -1,4 +1,4 @@
-<center><a href="https://sredevops.cl" target="_blank" alt="SREDevOps.dev - Site Reliability Engineering, DevOps y Platform Engineering en Español"><img src="https://sredevops.cl/content/images/2023/06/logo-temp.webp"><a></center>
+<center><a href="https://sredevops.cl" target="_blank" alt="SREDevOps.dev - Site Reliability Engineering, DevOps y Platform Engineering en Español"><img src="https://sredevops.cl/content/images/2023/06/ghost.svg"><a></center>
 
 ## Qué es SREDevOps.cl? ⎈
 
