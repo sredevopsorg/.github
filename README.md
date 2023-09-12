@@ -1,7 +1,8 @@
-<center><a href="https://sredevops.org" target="_blank" alt="SREDevOps.org - Site Reliability Engineering, DevOps y Platform Engineering en Español"><img src="https://avatars.githubusercontent.com/u/91654008?s=400&u=8a9d0ef038acdd597f1b27737ef9dae3e4d38b9a"><a></center>
-
-## Qué es SREDevOps.org? ⎈
+# [SREDevOps.org](https://sredevops.org)
 Noticias, Tutoriales, Información, Comunidad DevOps, Site Reliability Engineering (SRE) y Platform Engineering 🌎 🇨🇱 🇧🇷 🇪🇸
+
+https://github.com/sredevopsdev/.github/assets/34670018/669d03a3-da91-4a8d-99d4-ba3815dab668
+
 
 ## Misión
 
