@@ -1,7 +1,5 @@
 name: Get starred repositories
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
     inputs:
       username:
