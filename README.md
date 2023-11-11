@@ -1,11 +1,10 @@
-<center><img src="https://github.com/sredevopsdev/.github/assets/34670018/6878e00f-635c-4553-8df7-3b20406fdb4f" alt="SREDevOps.org" width="60%" align="center" />
+<center><img src="https://github.com/sredevopsdev/.github/assets/34670018/6878e00f-635c-4553-8df7-3b20406fdb4f" alt="SREDevOps.org" width="60%" align="center" /></center>
 
 ## Comunidad Site Reliability Engineering (SRE), DevOps, Cloud Native, GNU/Linux y más.  🌎
 
 Contacto: [info@sredevops.cl](mailto:info@sredevops.cl)
 
-[Español 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/)   | [Portugues 🇧🇷 🇵🇹](https://sredevops.dev.br/) | [Nosotros](https://sredevops.org/que-es-sredevops/) | [Discord](https://discord.com/invite/bK9rXFTvpk) | [Github](https://github.com/sredevopsdev) | [LinkedIn](https://www.linkedin.com/company/sredevops/) | [Twitter](https://twitter.com/sredevopsorg) | [Instagram](https://www.instagram.com/sredevopsorg/) | [Chat](https://sredevops.org/chat/)
-</center>
+[Español 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/es/) | [Portugues 🇧🇷 🇵🇹](https://sredevops.dev.br/) | [English 🇬🇧 🇺🇸](https://sredevops.org/en/) | [Nosotros](https://sredevops.org/que-es-sredevops/) | [Discord](https://discord.com/invite/bK9rXFTvpk) | [Github](https://github.com/sredevopsdev) | [LinkedIn](https://www.linkedin.com/company/sredevops/) | [Twitter](https://twitter.com/sredevopsorg) | [Instagram](https://www.instagram.com/sredevopsorg/)
 
 ## Propósito
 
