@@ -2,7 +2,7 @@
 
 ## Comunidad Site Reliability Engineering (SRE), DevOps, Cloud Native, GNU/Linux y más.  🌎
 
-Contacto: [info@sredevops.cl](mailto:info@sredevops.cl)
+Contacto: [info@sredevops.org](mailto:info@sredevops.org)
 
 [Español 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/es/) | [Portugues 🇧🇷 🇵🇹](https://sredevops.dev.br/) | [English 🇬🇧 🇺🇸](https://sredevops.org/en/) | [Nosotros](https://sredevops.org/que-es-sredevops/) | [Discord](https://discord.com/invite/bK9rXFTvpk) | [Github](https://github.com/sredevopsdev) | [LinkedIn](https://www.linkedin.com/company/sredevops/) | [Twitter](https://twitter.com/sredevopsorg) | [Instagram](https://www.instagram.com/sredevopsorg/)
 
@@ -18,3 +18,18 @@ Algunas de estas oportunidades son la equidad de género, el desarrollo económi
 Queremos estar en el futuro a través del presente y para ello estamos llamados a compartir aprendizajes y reencontrarnos en la creatividad comunitaria.
 
 ## Te sumas?
+Puedes escribirnos a los correos más abajo, participar en nuestro Discord (Links arriba) o puedes Abrir una discusión en Github.
+
+## Quiénes somos?
+| Nombre | Usuario | Correo |
+| ------ | ------- | ------ |
+Nicolás Georger | [@ngeorger](https://github.com/ngeorger) | info@sredevops.org
+Diego Mondini | [@mondiniit](https://github.com/mondiniit) | diego.mg@sredevops.dev.br
+Rudy Pinochet | [@rudy500](https://github.com/rudy500) | - |
+
+### Colaboradores
+| Nombre | Perfil | Correo |
+| ------ | ------ | ------ |
+| Rodrigo Estrada | [SREDEVOps](https://sredevops.org/author/rodrigo-estrada/) | rodrigo.estrada@gmail.com
+
+[Editar en Github](https://github.com/sredevopsdev/.github/edit/main/README.md?ref=sredevops.org)
