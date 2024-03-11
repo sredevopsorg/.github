@@ -4,7 +4,7 @@
 
 Contacto: [info@sredevops.org](mailto:info@sredevops.org)
 
-[Español 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/es/) | [Portugues 🇧🇷 🇵🇹](https://sredevops.dev.br/) | [English 🇬🇧 🇺🇸](https://sredevops.org/en/) | [Nosotros](https://sredevops.org/que-es-sredevops/) | [Discord](https://discord.com/invite/bK9rXFTvpk) | [Github](https://github.com/sredevopsdev) | [LinkedIn](https://www.linkedin.com/company/sredevops/) | [Twitter](https://twitter.com/sredevopsorg) | [Instagram](https://www.instagram.com/sredevopsorg/)
+[Español 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/es/) | [Portugues 🇧🇷 🇵🇹](https://sredevops.dev.br/) | [English 🇬🇧 🇺🇸](https://sredevops.org/en/) | [Nosotros](https://sredevops.org/que-es-sredevops/) | [Discord](https://discord.com/invite/bK9rXFTvpk) | [Github](https://github.com/sredevopsorg) | [LinkedIn](https://www.linkedin.com/company/sredevops/) | [Twitter](https://twitter.com/sredevopsorg) | [Instagram](https://www.instagram.com/sredevopsorg/)
 
 ## Propósito
 
