@@ -34,12 +34,11 @@ construir relaciones duraderas.
 ## ¿Quiénes somos?
 | Name               | Role                  | GitHub                                      | LinkedIn                                      | Email                          |
 |--------------------|-----------------------|---------------------------------------------|-----------------------------------------------|--------------------------------|
-| Nicolás Georger     | Founder               | [@ngeorger](https://github.com/ngeorger?ref=sredevops.org) | [LinkedIn](https://www.linkedin.com/in/nicolas-georger/?ref=sredevops.org) | [info@sredevops.org](mailto:info@sredevops.org) |
-| Diego Mondini       | Brasil Lead           | [@mondiniit](https://github.com/mondiniit?ref=sredevops.org) | [LinkedIn](https://www.linkedin.com/in/diegomondini/?ref=sredevops.org) | [diego.mg@sredevops.org](mailto:diego.mg@sredevops.org) |
-| Rudy Pinochet       | Advisor, collaborator  | [@rudy500](https://github.com/rudy500?ref=sredevops.org) | [LinkedIn](https://www.linkedin.com/in/rudypinochet/?ref=sredevops.org) | [rudy.pinochet@sredevops.org](mailto:rudy.pinochet@sredevops.org) |
+| [Nicolás Georger](https://sredevops.org/author/ngeorger/)     | Founder               | [@ngeorger](https://github.com/ngeorger) | [LinkedIn](https://www.linkedin.com/in/nicolas-georger/?ref=sredevops.org) | [info@sredevops.org](mailto:info@sredevops.org) |
+| [Diego Mondini](https://sredevops.org/author/diego-mondini/)       | Brasil Lead           | [@mondiniit](https://github.com/mondiniit) | [LinkedIn](https://www.linkedin.com/in/diegomondini/?ref=sredevops.org) | [diego.mg@sredevops.org](mailto:diego.mg@sredevops.org) |
+| Rudy Pinochet       | Advisor, collaborator  | [@rudy500](https://github.com/rudy500) | [LinkedIn](https://www.linkedin.com/in/rudypinochet/?ref=sredevops.org) | [rudy.pinochet@sredevops.org](mailto:rudy.pinochet@sredevops.org) |
 
-
-## Blog y contenido disponible en:
+## Blog y contenidos disponible en:
 - [Español / Castellano 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/es/)
 - [Portugues 🇧🇷 🇵🇹](https://sredevops.org/br/)
 - [English 🇬🇧 🇺🇸](https://sredevops.org/en/)
