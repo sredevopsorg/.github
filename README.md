@@ -1,61 +1,21 @@
 # About Us
 
-![About Us: SREDevOps.org](https://sredevops.org/content/images/2024/09/sredevopsorg-1.webp)
+[![About Us: SREDevOps.org](https://www.sredevops.org/content/images/2024/11/sredevopsorg.svg)](https://www.sredevops.org)
 
-## Our Mission
-Empower people and organizations in open source technologies, fostering collaboration and innovation.
+At **SREDevOps.org, we’re all about helping people and organizations thrive using open-source technology**. We truly believe that when tools and knowledge are shared openly, everyone wins. It’s the best way to drive innovation and help the whole tech community grow together. For us, it’s not just about the code—it’s about building a diverse, fair space where everyone can contribute to solving complex problems. **We aim for a long-term, sustainable approach that uses technology to make a real, positive impact on society.**
 
-## Our Values
-- **Open Source:** We believe in the power of open source to drive innovation and collaboration.
-- **Community and Equity:** We believe in gender equality, diversity, multiculturalism, and inclusion as fundamental pillars for innovation and technological development.
-- **Innovation:** Critical, creative, and collaborative thinking to solve problems using open source technologies as the basis for economic and social development.
-- **Sustainability:** We seek to promote a long-term vision, sustainable and with a positive impact on society through technology.
+If you’re looking to sharpen your skills, we’ve got plenty of resources to help. We regularly put out news, tutorials, and deep-dive guides on everything from Linux and Docker to Kubernetes, AI, and Cloud Native tech. But we’re more than just a content site; we’re a global community. We connect professionals through meetups, workshops, and webinars so we can all stay on top of industry trends and help each other solve real-world challenges. **Whether your focus is on SRE, DevSecOps, Platform Engineering, or ethical hacking, you'll find a home here.**
 
-## What do we do?
-- **Content:** Information, news, tutorials, guides, webinars, and more to improve your skills in SRE, DevOps, Cloud Native, Linux, Kubernetes, Docker, Serverless, Terraform, AI, ML, among other technologies.
-- **Community:** Connect with professionals from around the world to share knowledge, solve problems, and build lasting relationships.
-- **Events:** Participate in meetups, conferences, and workshops to stay up-to-date on the latest trends.
+Our team is led by Nicolás Georger, who founded the site, alongside Diego Mondini, our lead in Brazil, and Rudy Pinochet, who supports us as an advisor and collaborator. To make sure our resources reach as many people as possible, we offer content in [Español / Castellano](https://www.sredevops.org/es/), [English](https://www.sredevops.org/en/) and [Portuguese](https://www.sredevops.org/br/).
 
-## What areas do we develop:
-- Site Reliability Engineering (SRE)
-- DevOps, DevSecOps
-- Cloud Native (Kubernetes, Docker, Serverless)
-- Linux, GNU, FreeBSD
-- AI and ML
-- Open Source, Free Software (FOSS, FLOSS)
-- Platform Engineering
-- Security, Pentesting, Ethical Hacking
+We’re very active on social media, so feel free to hang out with us on [Discord](https://discord.com/invite/bK9rXFTvpk), [Slack](https://join.slack.com/t/sredevopsorg/shared_invite/zt-2m6bmgp86-zMKo8SMnM3j1_w9IE8BMeg), [GitHub](https://github.com/sredevopsorg), [LinkedIn](https://www.linkedin.com/company/sredevops/), [X (Twitter)](https://x.com/sredevopsorg), [Instagram](https://www.instagram.com/sredevopsorg/), [Mastodon](https://mastodon.social/@sredevopsorg), [YouTube](https://www.youtube.com/@sredevopsorg), [Threads](https://www.threads.net/@sredevopsorg).
 
-## Who are we?
+We’re always looking for fresh voices to join the mission. If you’d like to write an article for the blog, propose a talk for one of our meetups, or jump into our open-source projects, we’d love to hear from you. For partnerships, sponsorships, or just to say hello, you can reach out to Nicolás directly at <info@sredevops.org>. Come join the SREDevOps.org community and let’s build something great together.
+
+## Our Team
 | Name               | Role                  | GitHub                                      | LinkedIn                                      | Email                          |
 |--------------------|-----------------------|---------------------------------------------|-----------------------------------------------|--------------------------------|
-| [Nicolás Georger](https://sredevops.org/author/ngeorger/)     | Founder               | [@ngeorger](https://github.com/ngeorger) | [LinkedIn](https://www.linkedin.com/in/nicolas-georger/?ref=sredevops.org) | [info@sredevops.org](mailto:info@sredevops.org) |
-| [Diego Mondini](https://sredevops.org/author/diego-mondini/)       | Brasil Lead           | [@mondiniit](https://github.com/mondiniit) | [LinkedIn](https://www.linkedin.com/in/diegomondini/?ref=sredevops.org) | [diego.mg@sredevops.org](mailto:diego.mg@sredevops.org) |
-| Rudy Pinochet       | Advisor, collaborator  | [@rudy500](https://github.com/rudy500) | [LinkedIn](https://www.linkedin.com/in/rudypinochet/?ref=sredevops.org) | [rudy.pinochet@sredevops.org](mailto:rudy.pinochet@sredevops.org) |
+| [Nicolás Georger](https://sredevops.org/author/ngeorger/)     | Founder               | [@ngeorger](https://github.com/ngeorger) | [LinkedIn](https://www.linkedin.com/in/nicolas-georger/) | [info@sredevops.org](mailto:info@sredevops.org) |
+| [Diego Mondini](https://sredevops.org/author/diego-mondini/)       | Brazil Lead           | [@mondiniit](https://github.com/mondiniit) | [LinkedIn](https://www.linkedin.com/in/diegomondini/) | [diego.mg@sredevops.org](mailto:diego.mg@sredevops.org) |
+| Rudy Pinochet       | Advisor & Collaborator  | [@rudy500](https://github.com/rudy500) | [LinkedIn](https://www.linkedin.com/in/rudypinochet/) | [rudy.pinochet@sredevops.org](mailto:rudy.pinochet@sredevops.org) |
 
-## Blog and Content available in:
-- [Español / Castellano 🇨🇱 🇪🇸 🇲🇽](https://sredevops.org/es/)
-- [Portugues 🇧🇷 🇵🇹](https://sredevops.org/br/)
-- [English 🇬🇧 🇺🇸](https://sredevops.org/en/)
-
-## Social media
-- [Discord](https://discord.com/invite/bK9rXFTvpk?ref=sredevops.org)
-- [Slack](https://join.slack.com/t/sredevopsorg/shared_invite/zt-2m6bmgp86-zMKo8SMnM3j1_w9IE8BMeg?ref=sredevops.org)
-- [GitHub](https://github.com/sredevopsorg?ref=sredevops.org)
-- [LinkedIn](https://www.linkedin.com/company/sredevops/?ref=sredevops.org)
-- [X Twitter](https://x.com/sredevopsorg?ref=sredevops.org)
-- [Instagram](https://www.instagram.com/sredevopsorg/?ref=sredevops.org)
-- [Mastodon](https://mastodon.social/@sredevopsorg?ref=sredevops.org)
-- [YouTube](https://www.youtube.com/@sredevopsorg?ref=sredevops.org)
-- [Threads](https://www.threads.net/@sredevopsorg?ref=sredevops.org)
-
-**Join the SREDevOps.org community today!**
-
-## Do you want to contribute?
-Contact us if you want to:
-- Write an article for our blog
-- Propose a talk for our next meetup
-- Collaborate on our open source projects
-
-## Partnerships and sponsorship
-Contact: [info@sredevops.org](mailto:info@sredevops.org) (Nicolás Georger)
