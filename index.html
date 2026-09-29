@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Open Source Projects</title>
+
+    
+    
+    <style type="text/css">@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/greek/opsz/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/latin/opsz/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/cyrillic/opsz/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/cyrillic-ext/opsz/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/latin-ext/opsz/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/greek-ext/opsz/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/vietnamese/opsz/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/cyrillic/opsz/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/greek/opsz/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/greek-ext/opsz/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/vietnamese/opsz/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/latin/opsz/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/cyrillic-ext/opsz/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:500;src:url(/cf-fonts/v/inter/5.2.8/latin-ext/opsz/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/latin/opsz/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/cyrillic-ext/opsz/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/greek/opsz/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/cyrillic/opsz/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/greek-ext/opsz/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/latin-ext/opsz/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.2.8/vietnamese/opsz/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/cyrillic-ext/opsz/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/greek/opsz/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/greek-ext/opsz/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/cyrillic/opsz/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/latin/opsz/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/latin-ext/opsz/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.2.8/vietnamese/opsz/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}</style>
+    <style type="text/css">@font-face {font-family:'Roboto Mono';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/latin-ext/wght/italic.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/greek/wght/italic.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Roboto Mono';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/roboto-mono/5.2.9/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/built/main.css?v=kI3A8BKF6SAgxx7b" />
+    <link rel="icon" href="https://www.sredevops.org/content/images/size/w256h256/2024/07/Icon-App-76x76@2x.png" type="image/png">
+    <link rel="canonical" href="https://www.sredevops.org/our-open-source-projects/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="SREDevOps.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Open Source Projects">
+    <meta property="og:description" content="SREDevOps.org Open Source Projects: Technical Deep Dive
+
+Here you can find detailed information on the open-source projects managed by SREDevOps.org, focusing on technical specifications and deployment strategies.
+
+
+1. Ghost on Kubernetes
+
+A highly optimized and secure deployment of the Ghost CMS for container orchestration environments.
+
+
+
+
+Detail
+Specification">
+    <meta property="og:url" content="https://www.sredevops.org/our-open-source-projects/">
+    <meta property="og:image" content="https://www.sredevops.org/content/images/2024/12/card-1.png">
+    <meta property="article:published_time" content="2025-12-13T13:33:36.000Z">
+    <meta property="article:modified_time" content="2026-07-16T08:29:57.000Z">
+    <meta property="article:tag" content="SREDevOps">
+    <meta property="article:tag" content="Open Source">
+    <meta property="article:tag" content="Selected content">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/sredevops">
+    <meta property="article:author" content="https://www.facebook.com/sredevops">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Open Source Projects">
+    <meta name="twitter:description" content="SREDevOps.org Open Source Projects: Technical Deep Dive
+
+Here you can find detailed information on the open-source projects managed by SREDevOps.org, focusing on technical specifications and deployment strategies.
+
+
+1. Ghost on Kubernetes
+
+A highly optimized and secure deployment of the Ghost CMS for container orchestration environments.
+
+
+
+
+Detail
+Specification">
+    <meta name="twitter:url" content="https://www.sredevops.org/our-open-source-projects/">
+    <meta name="twitter:image" content="https://www.sredevops.org/content/images/2024/12/card.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Nicolás Georger">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="SREDevOps, Open Source, Selected content">
+    <meta name="twitter:site" content="@sredevopsorg">
+    <meta name="twitter:creator" content="@sredevopsorg">
+    <meta property="og:image:width" content="640">
+    <meta property="og:image:height" content="360">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "SREDevOps.org",
+        "url": "https://www.sredevops.org/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.sredevops.org/content/images/2024/11/sredevopsorg.svg",
+            "width": 240,
+            "height": 28
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Nicolás Georger",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.sredevops.org/content/images/2025/09/me.jpeg",
+            "width": 800,
+            "height": 800
+        },
+        "url": "https://www.sredevops.org/author/ngeorger/",
+        "sameAs": [
+            "https://www.sredevops.org",
+            "https://www.facebook.com/sredevops",
+            "https://x.com/sredevopsorg",
+            "https://www.threads.net/@sredevopsorg",
+            "https://bsky.app/profile/sredevopsorg.bsky.social",
+            "https://mastodon.social/@sredevopsorg",
+            "https://www.youtube.com/@sredevopsorg",
+            "https://www.instagram.com/sredevopsorg",
+            "https://www.linkedin.com/in/nicolas-georger"
+        ]
+    },
+    "headline": "Our Open Source Projects",
+    "url": "https://www.sredevops.org/our-open-source-projects/",
+    "datePublished": "2025-12-13T13:33:36.000Z",
+    "dateModified": "2026-07-16T08:29:57.000Z",
+    "keywords": "SREDevOps, Open Source, Selected content",
+    "description": "SREDevOps.org Open Source Projects: Technical Deep Dive\n\nHere you can find detailed information on the open-source projects managed by SREDevOps.org, focusing on technical specifications and deployment strategies.\n\n\n1. Ghost on Kubernetes\n\nA highly optimized and secure deployment of the Ghost CMS for container orchestration environments.\n\n\n\n\nDetail\nSpecification\n\n\n\n\nGoal\nProvide a hardened, production-ready Ghost v6 deployment for Kubernetes.\n\n\nKey Feature\nUses a custom, hardened distroless non-",
+    "mainEntityOfPage": "https://www.sredevops.org/our-open-source-projects/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.65">
+    <link rel="alternate" type="application/rss+xml" title="SREDevOps.org" href="https://www.sredevops.org/es/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js" data-i18n="true" data-ghost="https://www.sredevops.org/" data-key="595a486a3b02389565a8881cd7" data-api="https://www.sredevops.org/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="595a486a3b02389565a8881cd7" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://www.sredevops.org/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://www.sredevops.org/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script><style>:root {--ghost-accent-color: #aa3cfd;}</style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G6XFMLDJNT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G6XFMLDJNT');
+</script>
+<!-- <script src="https://analytics.ahrefs.com/analytics.js" data-key="ZF50tQTVqvdX6oSV7wP6eQ" async></script> -->
+<link rel="me" href="https://mastodon.social/@sredevopsorg">
+<link rel="me" href="https://github.com/sredevopsorg">
+<link rel="me" href="https://github.com/ngeorger">
+</head>
+
+<body class="bg-dark-bg text-dark-text antialiased font-sans">
+
+    <header class="sticky top-0 z-50 w-full bg-[#0d0e11]/80 backdrop-blur-md border-b border-white/10 py-3 min-h-[60px]">
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+
+    <div class="flex items-center">
+        <a href="https://www.sredevops.org" rel="me" alt="SREDevOps.org" aria-label="SREDevOps.org">
+          <img src="https://www.sredevops.org/content/images/2024/11/sredevopsorg.svg" alt="SREDevOps.org" class="h-7 w-auto sm:h-8" />
+        </a>
+        <span class="mx-3 hidden h-6 w-px bg-white/15 sm:inline-block" aria-hidden="true"></span>
+        <a href="https://www.sredevops.org" rel="me" aria-hidden="true" tabindex="-1"
+          class="hidden rounded-md sm:inline-flex">
+          <img src="https://www.sredevops.org/content/images/2024/07/Icon-App-76x76@2x.png" alt="" class="h-7 w-7 rounded-md" />
+        </a>
+    </div>
+
+    <div class="hidden md:flex items-center">
+          <ul class="nav flex flex-col gap-2 w-full md:flex-row md:items-center" role="menu">
+            <li class="nav-english flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/en/" class="block w-full text-gray-400 transition-colors hover:text-white">English</a>
+            </li>
+            <li class="nav-espanol flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/es/" class="block w-full text-gray-400 transition-colors hover:text-white">Español</a>
+            </li>
+            <li class="nav-brazil flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/br/" class="block w-full text-gray-400 transition-colors hover:text-white">Brazil</a>
+            </li>
+            <li class="nav-projects nav-current flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/our-open-source-projects/" class="block w-full text-gray-400 transition-colors hover:text-white">Projects</a>
+            </li>
+            <li class="nav-categories flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/tags/" class="block w-full text-gray-400 transition-colors hover:text-white">Categories</a>
+            </li>
+            <li class="nav-about-us flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/about-us/" class="block w-full text-gray-400 transition-colors hover:text-white">About Us</a>
+            </li>
+            <li class="nav-links flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/recommendations/" class="block w-full text-gray-400 transition-colors hover:text-white">Links</a>
+            </li>
+    </ul>
+
+    </div>
+
+    <div class="icon-pill hidden md:inline-flex">
+      <button type="button" data-ghost-search
+        aria-label="Search in SREDevOps.org" title="Search in SREDevOps.org">
+        <i class="fas fa-magnifying-glass text-xs"></i>
+      </button>
+      <a href="#/portal/signin" data-portal="signin"
+        aria-label="Sign in" title="Sign in">
+        <i class="fas fa-user text-xs"></i>
+      </a>
+    </div>
+
+    <button id="mobile-toggle" type="button" class="rounded-lg p-2 text-gray-400 transition-colors hover:text-white md:hidden" aria-label="Toggle navigation menu" aria-controls="mobile-menu" aria-expanded="false"><i class="fas fa-bars text-xl"></i></button>
+
+    <nav id="mobile-menu"
+      class="hidden absolute top-full left-0 right-0 bg-[#0d0e11]/95 backdrop-blur-md border-b border-white/10 p-6 flex-col gap-4 text-sm font-medium z-50">
+          <ul class="nav flex flex-col gap-2 w-full md:flex-row md:items-center" role="menu">
+            <li class="nav-english flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/en/" class="block w-full text-gray-400 transition-colors hover:text-white">English</a>
+            </li>
+            <li class="nav-espanol flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/es/" class="block w-full text-gray-400 transition-colors hover:text-white">Español</a>
+            </li>
+            <li class="nav-brazil flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/br/" class="block w-full text-gray-400 transition-colors hover:text-white">Brazil</a>
+            </li>
+            <li class="nav-projects nav-current flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/our-open-source-projects/" class="block w-full text-gray-400 transition-colors hover:text-white">Projects</a>
+            </li>
+            <li class="nav-categories flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/tags/" class="block w-full text-gray-400 transition-colors hover:text-white">Categories</a>
+            </li>
+            <li class="nav-about-us flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/about-us/" class="block w-full text-gray-400 transition-colors hover:text-white">About Us</a>
+            </li>
+            <li class="nav-links flex items-center rounded-lg px-0 py-2 text-left md:px-3 md:py-2" role="menuitem">
+                <a href="https://www.sredevops.org/recommendations/" class="block w-full text-gray-400 transition-colors hover:text-white">Links</a>
+            </li>
+    </ul>
+
+      <button type="button" data-ghost-search
+        class="flex items-center gap-2 text-gray-400 transition-colors hover:text-white">
+        <i class="fas fa-magnifying-glass"></i> Search in SREDevOps.org
+      </button>
+      <a href="#/portal/signin" data-portal="signin"
+        class="flex items-center gap-2 text-gray-400 transition-colors hover:text-white">
+        <i class="fas fa-user"></i> Sign in
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+    <main id="main-wrapper" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 relative mt-4">
+          
+  <h1 class="text-4xl text-center text-white font-bold">Our Open Source Projects</h1>
+    <section class="mt-8 gh-content">
+    <h2 id="sredevopsorg-open-source-projects-technical-deep-dive">SREDevOps.org Open Source Projects: Technical Deep Dive</h2><p>Here you can find detailed information on the <a href="https://github.com/sredevopsorg/?ref=sredevops.org" rel="noreferrer">open-source projects managed by SREDevOps.org</a>, focusing on technical specifications and deployment strategies.</p><h2 id="1-ghost-on-kubernetes">1. Ghost on Kubernetes</h2><p>A highly optimized and secure deployment of the Ghost CMS for container orchestration environments.</p><table>
+<thead>
+<tr>
+<th><strong>Detail</strong></th>
+<th><strong>Specification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Goal</strong></td>
+<td>Provide a hardened, production-ready Ghost v6 deployment for Kubernetes.</td>
+</tr>
+<tr>
+<td><strong>Key Feature</strong></td>
+<td>Uses a custom, hardened distroless non-root image for enhanced security and minimized attack surface.</td>
+</tr>
+<tr>
+<td><strong>Target Platforms</strong></td>
+<td>Kubernetes (k8s), k3s, and other related orchestration systems.</td>
+</tr>
+<tr>
+<td><strong>Repository</strong></td>
+<td><a href="https://github.com/sredevopsorg/ghost-on-kubernetes?ref=sredevops.org">https://github.com/sredevopsorg/ghost-on-kubernetes</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="deployment-instructions"><strong>Deployment Instructions</strong></h3><ul><li><strong>English:</strong> <a href="https://www.sredevops.org/en/how-to-deploy-ghost-cms-on-kubernetes/">How to deploy Ghost CMS on Kubernetes</a></li><li><strong>Español:</strong> <a href="https://www.sredevops.org/es/como-desplegar-ghost-en-kubernetes/">Cómo desplegar Ghost (CMS/Blog) en Kubernetes</a></li></ul><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/sredevopsorg/ghost-on-kubernetes?ref=sredevops.org"><div class="kg-bookmark-content"><div class="kg-bookmark-title">GitHub - sredevopsorg/ghost-on-kubernetes: Ghost on Kubernetes by SREDevOps.org - Deploy Ghost v6 on Kubernetes (k8s, k3s, etc) with our hardened distroless non root custom image.</div><div class="kg-bookmark-description">Ghost on Kubernetes by SREDevOps.org - Deploy Ghost v6 on Kubernetes (k8s, k3s, etc) with our hardened distroless non root custom image. - sredevopsorg/ghost-on-kubernetes</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://www.sredevops.org/content/images/icon/pinned-octocat-093da3e6fa40-32.svg" alt=""><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">sredevopsorg</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.sredevops.org/content/images/thumbnail/395b82c9-df81-4aee-95a5-4269616a550f-6" alt="" onerror="this.style.display = 'none'"></div></a></figure><h2 id="2-multi-architecture-docker-build-with-native-github-runners">2. Multi-Architecture Docker Build with Native GitHub Runners</h2><p>A robust CI/CD workflow that accelerates container image creation by leveraging native GitHub runners, eliminating the need for emulation.</p><table>
+<thead>
+<tr>
+<th><strong>Detail</strong></th>
+<th><strong>Specification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Goal</strong></td>
+<td>Efficiently build Docker images that support multiple CPU architectures (e.g., amd64, arm64).</td>
+</tr>
+<tr>
+<td><strong>Methodology</strong></td>
+<td>Utilizes native GitHub Actions runners across different architectures.</td>
+</tr>
+<tr>
+<td><strong>Technical Advantage</strong></td>
+<td>Bypasses QEMU emulation, resulting in faster, more reliable, and native-performance multi-arch builds.</td>
+</tr>
+<tr>
+<td><strong>Repository</strong></td>
+<td><a href="https://github.com/sredevopsorg/multi-arch-docker-github-workflow?ref=sredevops.org">https://github.com/sredevopsorg/multi-arch-docker-github-workflow</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="instructional-guide"><strong>Instructional Guide</strong></h3><ul><li><strong>English:</strong> <a href="https://www.sredevops.org/en/kiss-goodbye-to-qemu-unleash-the-power-of-native-github-runners-for-multi-arch-docker-images/">Kiss Goodbye to QEMU: Unleash the Power of Native GitHub Runners for Multi-Arch Docker Images</a></li></ul><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/sredevopsorg/multi-arch-docker-github-workflow?ref=sredevops.org"><div class="kg-bookmark-content"><div class="kg-bookmark-title">GitHub - sredevopsorg/multi-arch-docker-github-workflow: How to build a Multi-Architecture Docker Image in Github Actions using multiple runners without QEMU</div><div class="kg-bookmark-description">How to build a Multi-Architecture Docker Image in Github Actions using multiple runners without QEMU - sredevopsorg/multi-arch-docker-github-workflow</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://www.sredevops.org/content/images/icon/pinned-octocat-093da3e6fa40-31.svg" alt=""><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">sredevopsorg</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.sredevops.org/content/images/thumbnail/multi-arch-docker-github-workflow-2" alt="" onerror="this.style.display = 'none'"></div></a></figure><h2 id="3-sredevopsorg-ghost-theme">3. SREDevOps.org Ghost Theme</h2><p>A modern, functional theme designed specifically for the Ghost publishing platform.</p><table>
+<thead>
+<tr>
+<th><strong>Detail</strong></th>
+<th><strong>Specification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Goal</strong></td>
+<td>Provide a high-quality, modern, and accessible theme for Ghost v6.</td>
+</tr>
+<tr>
+<td><strong>Core Framework</strong></td>
+<td>Tailwind CSS v3 for utility-first styling.</td>
+</tr>
+<tr>
+<td><strong>Design Features</strong></td>
+<td>Fully responsive design, native dark color schema, SVG icons, and enhanced navigation (sidebar + footer).</td>
+</tr>
+<tr>
+<td><strong>Repository</strong></td>
+<td><a href="https://github.com/sredevopsorg/sredevopsorg-ghost-theme?ref=sredevops.org">https://github.com/sredevopsorg/sredevopsorg-ghost-theme</a></td>
+</tr>
+</tbody>
+</table>
+<figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/sredevopsorg/sredevopsorg-ghost-theme?ref=sredevops.org"><div class="kg-bookmark-content"><div class="kg-bookmark-title">GitHub - sredevopsorg/sredevopsorg-ghost-theme: A Ghost v5 Theme made for SREDevOps.org based on Tailwind CSS with sidebar navigation and dark theme by default.</div><div class="kg-bookmark-description">A Ghost v5 Theme made for SREDevOps.org based on Tailwind CSS with sidebar navigation and dark theme by default. - sredevopsorg/sredevopsorg-ghost-theme</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://www.sredevops.org/content/images/icon/pinned-octocat-093da3e6fa40-30.svg" alt=""><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">sredevopsorg</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.sredevops.org/content/images/thumbnail/sredevopsorg-ghost-theme-1" alt="" onerror="this.style.display = 'none'"></div></a></figure>
+  </section>
+
+
+    </main>
+    <footer class="mt-16 pt-8 border-t border-gray-800 pb-12">
+
+  <div class="mb-6 text-xs font-medium sm:text-sm">
+        <nav aria-label="Secondary navigation">
+        <ul class="flex flex-wrap items-center justify-center divide-x divide-gray-800" role="menu">
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/about-us/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">About Us</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/que-es-sredevops/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Nosotros</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/our-open-source-projects/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Our Projects</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/contact-us/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Contact us</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/terms-of-service/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Terms of Service</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/privacy-policy/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Privacy</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/es/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Español</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/br/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Portugues</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/en/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">English</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/tags/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Categories</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/recommendations/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Recommendations</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/sitemap.xml" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Sitemap</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.sredevops.org/rss/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">RSS</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://github.com/sredevopsorg" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Github</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.linkedin.com/company/sredevops/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">LinkedIn</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://discord.com/invite/bK9rXFTvpk" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Discord</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://x.com/sredevopsorg" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">X</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://mastodon.social/@sredevopsorg" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Mastodon</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.instagram.com/sredevopsorg/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Instagram</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://threads.net/sredevopsorg" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Threads</a>
+                </li>
+                <li class="flex items-center px-4 first:pl-0 last:pr-0" role="menuitem">
+                    <a href="https://www.reddit.com/r/sredevops/" class="rounded-sm text-gray-400 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple">Reddit</a>
+                </li>
+        </ul>
+    </nav>
+
+  </div>
+
+  <div class="text-center text-xs text-gray-600 pt-4 border-t border-gray-800/50">
+    &copy; 2026 SREDevOps.org. Built with Ghost.
+  </div>
+</footer>
+    
+    
+    <script src="/assets/built/main.js?v=M-gyljn6bZytxIzB"></script>
+
+   
+    
+</body>
+
+</html>
